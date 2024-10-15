@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**********Header*********/
+
+header .header-top {
+  background-color: white
+}
+
+header .header-top img {
+  vertical-align: middle
+}
+
+header .header-top span {
+  background-color: white;
+  font-size: 2.5rem;
+  vertical-align: middle;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/***********Main***********/
+
+.blu-box {
+  background-color: rgb(57, 166, 225);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  max-width: max-content;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.grey-box {
+  background-color: white;
+  color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  max-width: max-content;
+  border-radius: 10%;
+  text-align: center;
+  border-style: solid;
+  border-color: lightgray;
+}
