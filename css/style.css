@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+  background-color: lightgray;
+}
+
 /**********Header*********/
 header {
   background-color: white;
@@ -20,3 +25,103 @@ header h1 {
 }
 
 /**************main****************/
+
+main {
+  background-color: lightgray;
+}
+
+.container {
+  margin: 30px auto;
+  width: 70%;
+}
+
+/***************list****************/
+.toboocard {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.toboocard-top {
+  border-bottom: 1px solid lightgray;
+  padding: 15px;
+}
+
+.toboocard-bottom {
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li h3 {
+  text-transform: capitalize;
+}
+
+.toboocard-bottom ul li h3::before {
+  content: "\25BE";
+}
+
+.toboocard-bottom ul li {
+  line-height: 40px;
+}
+
+.toboocard-inner-list li::before {
+  border-radius: 50%;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.toboocard-inner-list li.checked::before {
+  content: "\2713";
+  color: rgb(18, 204, 18);
+  border: 1px solid green;
+}
+
+.toboocard-inner-list li.cross::before {
+  content: "\292b";
+  color: red;
+  border: 1px solid red;
+}
+
+.toboocard-bottom ul li::after {
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+
+.toboocard-bottom ul li.editorial::after {
+  content: 'editorial';
+  background-color: rgb(73, 191, 230);
+}
+
+.toboocard-bottom ul li.q1-goals::after {
+  content: 'Q1 Goals';
+  background-color: blueviolet;
+}
+
+.toboocard-bottom ul li.recruiting::after {
+  content: 'Recruiting';
+  background-color: green;
+}
+
+.toboocard-bottom ul li.mobile::after {
+  content: 'Mobile';
+  background-color: orangered;
+}
+
+.toboocard-bottom ul li.website::after {
+  content: 'Website';
+  background-color: palevioletred;
+}
+
+.toboocard-bottom ul li.sales::after {
+  content: 'Sales';
+  background-color: lightgreen;
+}
