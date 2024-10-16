@@ -125,3 +125,20 @@ ul li h3 {
   content: 'Sales';
   background-color: lightgreen;
 }
+
+/**************button****************/
+
+button {
+  border-radius: 4px;
+  padding: 5px;
+  border: 0;
+  text-transform: capitalize;
+}
+
+.bg-blue {
+  background-color: rgb(73, 191, 230);
+}
+
+.text-white {
+  color: white;
+}
